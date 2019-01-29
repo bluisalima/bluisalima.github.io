@@ -1,0 +1,75 @@
+/*
+* @author Luísa Lima
+*
+*/
+
+
+/* === BARRA DE NAVEGAÇÃO === */
+
+
+
+/* ---------------- LAYOUT ----------------- */
+html, body{
+	height: 100%;
+}
+
+
+body{
+	background-image: url('imagens/foto3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-family:'Montserrat', sans-serif;
+	
+}
+
+
+
+
+/* === IMAGEM DE CAPA === */
+.capa{
+	display: table;
+	width: 100%;
+	height: 100%;
+	padding: 100px;
+
+}
+.texto-capa{
+	text-align: center;
+	color: white;
+	font-size: 20%;
+}
+
+.foto-capa{
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+
+.foto-capa img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.socialMedias{
+	size: 10px;
+}
+
+/* -------------- TIPOGRAFIA -------------- */
+
+h2{
+	font-size: 85px;
+	font-weight: 100%;
+	color: white;
+}
+h1{
+	font-size: 28px;
+	color: white;
+
+}
